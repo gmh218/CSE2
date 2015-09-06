@@ -18,7 +18,7 @@ public static void main(String[] args) {
     int countstrip1=1561; 
     //rotations for first trip
     int countstrip2=9037; 
-    //roations for second truo
+    //rotations for second truo
     
     double WheelDistance=27.0, 
     //declaring double
@@ -28,7 +28,7 @@ public static void main(String[] args) {
     inchesPerFoot=12, 
     //23 inches in a foot
     secondsPerMinute=60;
-    //second per minute defined
+    //seconds per minute defined
     double distancetrip1,distancetrip2,totaldistance;  //declaring as doubles
     
     System.out.println("Trip 1 took "+ secstrip1/secondsPerMinute +" minutes and had "+ countstrip1+" counts.");
