@@ -43,17 +43,11 @@ public class CardGenerator{
                cardType="Ace";
                //define card type as ace
                break;
-          case 2:
-            case 15:
-            case 28:
-            case 41:
+          case 2: case 15: case 28: case 41:
                 cardType="2";
                 break;
                 //for two's
-            case 3:
-            case 16:
-            case 29:
-            case 42:
+            case 3: case 16: case 29: case 42:
                 cardType="3";
                 break;
             case 4: case 17: case 30: case 43:
