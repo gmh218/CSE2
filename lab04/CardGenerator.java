@@ -6,12 +6,11 @@
 //randomly generates a card and tells the suit and card
 //
 
-
 public class CardGenerator{
     //define a class
     public static void main(String[] args){
         //establish main method
-        int card=(int)Math.random()*52+1;
+        int card=(int)(Math.random()*52+1);
         //generate random number between 1 and 52
         String suit = "";
         String cardType = "";
